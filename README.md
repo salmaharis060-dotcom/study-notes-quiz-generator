@@ -2,7 +2,7 @@
 
 A Streamlit app that turns your study notes or PDFs into a bullet point summary and an interactive multiple-choice quiz, using the Groq API.
 
-**Live demo:** YOUR-STREAMLIT-LINK-HERE
+**Live demo:** https://study-notes-quiz-generator-4s8iox7gcszpnphwsc9aqy.streamlit.app/
 
 ## Screenshots
 <img width="950" height="437" alt="image" src="https://github.com/user-attachments/assets/8bc8d2f8-da4a-45aa-b145-d17cb062487b" />
@@ -62,6 +62,7 @@ Python, Streamlit, Groq API (`openai/gpt-oss-120b`), pypdf, python-dotenv
 - At most 15 chunks (about 45,000 characters) are processed per run
 - The quiz is built from summaries, so it can miss fine details
 - Summaries and quiz answers come from an LLM and can contain mistakes, so check them against your notes
+- When a PDF and pasted notes cover different topics, the shorter source can be under-represented.
 
 ## Possible improvements
 
