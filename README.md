@@ -39,7 +39,7 @@ Python, Streamlit, Groq API (`openai/gpt-oss-120b`), pypdf, python-dotenv
 
 1. Clone the repo:
    ```
-   git clone https://github.com/YOUR-USERNAME/study-notes-quiz-generator.git
+   git clone https://github.com/salmaharis060-dotcom/study-notes-quiz-generator.git
    cd study-notes-quiz-generator
    ```
 2. Install dependencies:
